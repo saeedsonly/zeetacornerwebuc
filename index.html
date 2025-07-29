@@ -9,15 +9,16 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fce4ec; /* soft dusty pink */
+      background-color: #fce4ec;
       display: flex;
-      align-items: center;
+      flex-direction: column;
       justify-content: center;
-      height: 100vh;
+      align-items: center;
+      min-height: 100vh;
     }
 
     .postcard {
-      background: #fffafa; /* warm, soft background */
+      background: #fffafa;
       border: 2px dashed #e4a0b7;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
       border-radius: 16px;
@@ -63,6 +64,13 @@
       color: #8e245d;
     }
 
+    footer {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #a65a7b;
+      text-align: center;
+    }
+
     @media (max-width: 600px) {
       .postcard {
         padding: 30px 20px;
@@ -80,4 +88,12 @@
       <strong>Coming soon!</strong> Stay tuned for a delightful shopping experience.
     </div>
     <div class="contact">
-      📧 Questions? Reach out at <a href="mailto:hello@example.com">hel
+      📧 Questions? Reach out at <a href="mailto:zeetacorner@gmail.com">zeetacorner@gmail.com</a><br>
+      — <span class="brand">Zeeta Corner</span> Team
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Zeeta Corner ABN 58 716 273 123. All rights reserved.
+  </footer>
+</body>
+</html>
